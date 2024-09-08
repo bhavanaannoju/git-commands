@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+<body  bgcolor='lavender'>
+<h2 align='center'>Forms in HTML</h2>
+<h3 align='center'>Example of Internship Form</h3><pre>
+<form method='POST' align='center' action='newpage.html'>
+<fieldset>
+<legend>Enter Your Details</legend>
+Enter your Name: <br/>
+<input type="text" name="username" placeholder='Username'/><br/>
+Enter your Email:<br/>
+<input type="email" name="email" placeholder='Email'/><br/>
+Enter your Password:<br/>
+<input type="password" placeholder="Password" name="password" /><br>
+<label for='gender'>Gender:</label>
+<input type='radio' id='gender' name='gender' value='female'/>Male
+<input type='radio' id='gender' name='gender' value='male'/>Female<br/>
+Enter your Age:<br/>
+<input type='number' name='age' placeholder='Age'/><br/>
+<p>How many months you wanted to join our Internship Program?</p> 
+<select name='dropdown' >
+<option value='3 months'>3 months</option>
+<option value='6 months' selected>6 months</option>
+<option value='9 months'>9 months</option>
+<option value='1 year'>1 year</option>
+</select><br>
+<p>Select your Programming Languages:</p>
+<input type='checkbox' name='C Language' value='C Language'>C Language<br/> 
+<input type='checkbox' name='Python' value='Python'>Python<br/> 
+<input type='checkbox' name='Java' value='Java'>Java<br/> 
+<input type='checkbox' name='C++' value='C++'>C++<br/> 
+<input type='checkbox' name='Javascript' value='Javascript'>Javascript<br/> 
+<p>Upload Document of Resume</p>
+<input type='file' name='fileupload' accept='document/*'/><br/>
+About Yourself:<br/>
+<textarea placeholder='Express in atleast 20 words' rows=3 cols=25></textarea><br/>
+<a href='newpage.html'><input type='button' value='submit'/></a><br/>
+</fieldset>
+</form></pre>
+</body>
+</html>
